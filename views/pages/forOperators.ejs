@@ -1,5 +1,126 @@
 <%- include("../partials/header") %>
     <%- include("../partials/navbar1") %>
-        <h1>For operators</h1>
+        <style>
+            #indi1 {
+                background-image: url('img/telecom1.jpg');
+                background-size: 100%;
+                background-repeat: no-repeat;
+                height: 200px;
+                color: white;
+            }
+            .flex-containerope {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                background-color: #f1f1f1;
+            }
+            .operator {
+                margin: 20px 100px;
+            }
+            .flex-containerope a {
+                display: block;
+                color: white;
+            }
+            .bgColor {
+                background-image: url('img/telecom2.jpg');
+                height: 200px;
+                margin: 10px;
+            }
 
+            a:hover {
+                color: yellow;
+            }
+            h4 {
+                color: blue;
+            }
+        </style>
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/"> <h4><img src="img/uztelecom.jpg" alt=""> UZTELECOM </h4></a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Voive interconnect</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Internet channels</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Rental</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Colocation</a>
+                        </li>
+                    </ul>
+                </div>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <div class="container-fluid" id="indi1">
+            <h3>Operator for operators of <br> Uzbekistan</h3>
+        </div>
+
+        <div class="operator">
+            <p>
+                Digital communication net JSC "Uzbektelecom" - modern telecommunications system of national scale, which
+                has points of presence in all regions of the Republic of Uzbekistan, in the Republic of Karakalpakstan
+                and key points of traffic exchange abroad. Company network has high information capacity and failure
+                safety.
+            </p>
+            <h2>
+                Service for operators of Uzbekistan
+            </h2>
+            <div class="flex-containerope">
+                <div class="card" style="width: 18rem;">
+                    <a href="#">
+                        <div class="card-body bgColor">
+                            <h3 class="card-title">Voice interconnect</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <a href="#">
+                        <div class="card-body bgColor">
+                            <h3 class="card-title">Provision of access to the international internet-channels
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <a href="#">
+                        <div class="card-body bgColor">
+                            <h3 class="card-title">Rental of communication channels
+                            </h3>
+                        </div>     
+                    </a>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <a href="#">
+                        <div class="card-body bgColor">
+                            <h3 class="card-title">Cable sewer rental</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <a href="#">
+                        <div class="card-body bgColor">
+                            <h3 class="card-title">Collocation</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <a href="#">
+                        <div class="card-body bgColor">
+                            <h3 class="card-title">Peer network UZ-IX</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
         <%- include("../partials/footer") %>
