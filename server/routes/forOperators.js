@@ -3,7 +3,7 @@ const router = express.Router();
 
 router.get('/', async(req, res) => {
     res.render('forOperators.ejs', {
-        title: 'title: "Uztelecom - National operator"'
+        title: "Uztelecom - National operator"
     });
 });
 
