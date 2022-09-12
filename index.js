@@ -18,6 +18,7 @@ const start = async () => {
   
     app.use(express.static(__dirname + '/public'));
 
+
     app.use('/en', require('./server/routes/forInduviduals'));
     app.use('/en/forBusiness', require('./server/routes/forBusiness'));
     app.use('/en/forOperators', require('./server/routes/forOperators'));
